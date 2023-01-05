@@ -3,3 +3,66 @@
   height: 30px;
   width: 30vw;
 }
+.btn-head-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gradient-Cont {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  padding: 60px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.white-cont {
+  height: 100;
+  width: 80vw;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+.image-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.input {
+  margin-bottom: 10px;
+}
+.label {
+  color: #b5b7c4;
+  font-size: 15px;
+}
+.add-button {
+  border-radius: 4px;
+  border: none;
+  background-color: #8b5cf6;
+  color: white;
+  height: 30px;
+  width: 70px;
+}
+
+.starred-btn {
+  border-radius: 9px;
+  border: solid 1px #9897f0;
+  background-color: white;
+  color: #9897f0;
+  height: 30px;
+  width: 70px;
+}
+
+.active-starred-btn {
+  border-radius: 9px;
+  border: solid 1px white;
+  background-color: #9897f0;
+  color: white;
+  height: 30px;
+  width: 70px;
+}
+.unorder-list {
+  display: flex;
+  flex-direction: row;
+}

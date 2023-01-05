@@ -1,1 +1,27 @@
 /* Write your CSS here */
+.star-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.listOrder {
+  list-style: none;
+  border: solid 1px black;
+  width: 30vw;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.star-btn {
+  background-color: transparent;
+  border: none;
+}
+.appDate {
+  color: #b5b7c4;
+  font-size: 15px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.appName {
+  font-size: 17px;
+}
